@@ -69,7 +69,7 @@ public:
 	}
 
 	/**
-    * Union two disjoint sets by rank.
+        * Union two disjoint sets by rank.
 	* root1 is the root of set 1.
 	* root2 is the root of set 2.
 	*/
