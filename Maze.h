@@ -96,8 +96,8 @@ public:
 		return true;
 	}
 	
-	/*
-	 *  Return whether two cells have joined the same set
+	/**
+	 *  Return whether two cells have joined the same set.
 	 */
 	bool checkSets(int x1, int y1, int x2, int y2)
 	{
