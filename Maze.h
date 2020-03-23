@@ -49,8 +49,8 @@ private:
 
 public:
 	
-	/*
-	 *  Basic constructor
+	/**
+	 *  Basic constructor.
 	 */
 	Maze(int width, int height)
 	{
@@ -80,8 +80,8 @@ public:
 
 	}
 
-	/*
-	 *  Return whether 2 pairs of cell coordinates are present in the grid
+	/**
+	 *  Return whether 2 pairs of cell coordinates are present in the grid.
 	 */
 	bool checkWalls(int x1, int y1, int x2, int y2)
 	{
@@ -112,8 +112,8 @@ public:
 		return false;
 	}
 
-	/*
-	 *  Draws a maze by looping through all cells and randomly removing walls based on whether they are in the same set
+	/**
+	 *  Draws a maze by looping through all cells and randomly removing walls based on whether they are in the same set.
 	 */
 	void draw()
 	{
@@ -158,8 +158,8 @@ public:
 			
 	}
 
-	/*
-	 *  Display the maze in a svg file
+	/**
+	 *  Display the maze in a svg file.
 	 */
 	void display()
 	{
