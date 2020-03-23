@@ -2,10 +2,10 @@
  *  File: Maze.h
  *  Author: Tala Karaki
  *  Description: This class produces a maze using disjoint sets.
-                 First a grid of cells is created, and then a cell and a border(top,bottom,right,left) are randomly selected.
-				 Initially, each cell is in a separate set. After finding a border, the wall between the selected cell and its 
-				 adjacent cell is removed by checking if its in the same set. The cells are then combined by a set union.
- 				 After all cells have been traversed and combined into one set, there will only be one set and the maze will be printed in a svg file.
+                First a grid of cells is created, and then a cell and a border(top,bottom,right,left) are randomly selected.
+		Initially, each cell is in a separate set. After finding a border, the wall between the selected cell and its 
+		adjacent cell is removed by checking if its in the same set. The cells are then combined by a set union.
+ 		After all cells have been traversed and combined into one set, there will only be one set and the maze will be displayed in a svg file.
  *
  */
 
